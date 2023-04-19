@@ -1,0 +1,28 @@
+body{
+    background-color:#fad46b ;
+}
+h1{
+    color: darkblue;
+    background-color:#fcc5f1 ;
+}
+#show_sketch{
+    float: right;
+    margin-right:10px;
+}
+p{
+   font-size:30px;
+   font-weight: 500; 
+   padding-top: 10px;
+}
+canvas{
+    margin-top: 100px;
+    border: 5px solid rgb(14, 14, 14);
+    border-radius: 25px;
+    animation-name:example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow:5px 10px 38px rgb(232, 64, 64) ;}
+    to{box-shadow:5px 10px 38px rgb(28, 88, 4) ;}
+}
